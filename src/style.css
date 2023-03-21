@@ -21,7 +21,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #571db9;
+  text-decoration: underline;
 }
 
 body {
@@ -127,6 +127,14 @@ h1{
   font-size: 16px;
   color: #94A3B8;
 }
+.auth-input:hover, .auth-input:focus{
+  border-color: #7C3AED;
+  outline: none;
+}
+
+.auth-input:invalid{
+  border-color: red;
+}
 
 .email-field{
   margin-bottom: 16px;
@@ -145,10 +153,20 @@ h1{
   font-weight: bold;
   margin-top: 32px;
   width: 100%;
+  border: none;
+}
+
+.enter-button:hover{
+  background: #9F67FF;
+  border: none;
 }
 
 .pass{
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.pass a{
+  font-weight: 600;
 }
