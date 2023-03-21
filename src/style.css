@@ -1,10 +1,8 @@
 :root {
   font-family: Titillium Web, sans-serif;
-  color: #475569;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
   background-color: #fff;
 
   font-synthesis: none;
@@ -33,6 +31,10 @@ body {
   justify-content: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+p, span{
+  color: #475569;
 }
 
 h1 {
@@ -70,10 +72,11 @@ button:focus-visible {
   display: flex;
   flex: 1;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   width: 100%;
   height: 100vh;
+  padding: 42px 112px;
 }
 
 .left{
@@ -91,12 +94,19 @@ button:focus-visible {
   flex-direction: column;
 }
 
+.content{
+  max-width: 384px;
+  flex: 1;
+  justify-content: center;
+}
+
 .content p:first-of-type{
   font-size: 16px;
 }
 
 h1{
   font-size: 36px;
+  color: #1E293B;
 }
 
 .font-bold{
@@ -104,16 +114,17 @@ h1{
 }
 
 .auth-input{
-  display: flex;
-  width: 100%;
   height: 53px;
   padding: 16px 12px;
   border: 1px solid #E2E8F0;
   border-radius: 4px;
+  width: 100%;
+  background-color: #fff;
 }
 
 .auth-input::placeholder{
   font-size: 16px;
+  color: #94A3B8;
 }
 
 .email-field{
@@ -126,16 +137,17 @@ h1{
 
 .enter-button{
   display: block;
-  width: 100%;
   height: 56px;
   padding: 16px 12px;
   color: #fff;
   background: #7C3AED;
   font-weight: bold;
   margin-top: 32px;
+  width: 100%;
 }
 
 .pass{
   display: flex;
+  width: 100%;
   justify-content: space-between;
 }

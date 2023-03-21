@@ -27,7 +27,7 @@ function App() {
             <button className="enter-button">Entrar</button>
           </form>
           <div>
-            <p>Ainda não tem uma conta? <a href="#">Inscreva-se</a></p>
+            <p>Ainda não tem uma conta? <a href="#" className="font-bold">Inscreva-se</a></p>
           </div>
         </div>
       </div>
