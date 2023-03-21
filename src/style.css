@@ -95,13 +95,14 @@ button:focus-visible {
 }
 
 .content{
-  max-width: 384px;
+  max-width: 85%;
   flex: 1;
   justify-content: center;
 }
 
 .content p:first-of-type{
   font-size: 16px;
+  margin-bottom: 40px;
 }
 
 h1{
