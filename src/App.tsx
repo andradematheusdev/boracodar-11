@@ -24,7 +24,7 @@ function App() {
               </div>
               <input type="password" name="password" id="pass" placeholder="Digite sua senha"  className="auth-input" />
             </div>
-            <button className="enter-button">Entrar</button>
+            <button className="enter-button" type="submit" onClick={(e) => e.preventDefault()}>Entrar</button>
           </form>
           <div>
             <p>Ainda não tem uma conta? <a href="#" className="font-bold">Inscreva-se</a></p>
